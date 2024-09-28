@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avvia Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Avvia Bootstrap</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">Di</a></li>
+                    <li><a href="#">CONTATTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="head.jpeg" alt="Avatar">
+                <h2>Avvia Bootstrap</h2>
+                <p>Grafico - Web Designer - Illustratore</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <h2>PORTFOLIO</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="hut.jpeg" alt="Portfolio Item 1"></a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="cake.jpeg" alt="Portfolio Item 2" class="cake"></a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="circus(1).jpeg" alt="Portfolio Item 3"></a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="conroller.jpeg" alt="Portfolio Item 4"></a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="safe.jpeg" alt="Portfolio Item 5"></a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="#" target="_blank"><img src="ship.jpeg" alt="Portfolio Item 6"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2>Di</h2>
+            <p class="left">
+                Freelancer è un tema bootstrap gratuito creato da 
+                <br />Avvia Bootstrap. Il download include <br />i file sorgente completi inclusi HTML, CSS, 
+                <br />e JavaScript, nonché fogli di stile SASS opzionali <br />per una facile personalizzazione.
+            </p>
+
+            <p class="right">
+                Puoi creare il tuo avatar personalizzato per 
+                <br />testata, cambia l'icona nei divisori e <br />aggiungi il tuo indirizzo email al modulo di contatto 
+                <br />rendilo perfettamente funzionante!
+            </p>
+            
+            <br />
+            <a href="#" class="button">Scarica gratis!</a>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2>Contattami</h2>
+            <form action="submit">
+                <div class="form-field">
+                    <label for="full-name">Nome e cognome:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="email">Indirizzo e-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="phone" type="required">Numero di telefono:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-field">
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Inviare</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section1">
+                    <h3>POSIZIONE</h3>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+                </div>
+                <div class="footer-section2">
+                    <h3>IN GIRO PER IL WEB</h3>
+                    <ul class="social-links">
+                        <li><a href="#" target="_blank"><img src="facebook_1384005.png" alt="Facebook" class="social-icon"></a></li>
+                        <li><a href="#" target="_blank"><img src="twitter_4494465.png" alt="Twitter" class="social-icon"></a></li>
+                        <li><a href="#" target="_blank"><img src="linkedin_4494471.png" alt="LinkedIn" class="social-icon"></a></li>
+                        <li><a href="#" target="_blank"><img src="dribble.png" alt="dribble" class="social-icon"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section3">
+                    <h3>INFORMAZIONI SUL LIBERO LIBERO</h3>
+                    <p>Freelance è un servizio gratuito, concesso in licenza dal MIT <br />Tema Bootstrap creato da <a href="#">Avvia Bootstrap</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p class="copyright">Copyright &copy; Il tuo sito web 2024</p>
+    </div>
+</body>
+</html>
